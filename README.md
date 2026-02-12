@@ -76,11 +76,15 @@ This replicates a **real Chrome user**.
 
 Install dependencies:
 
+```bash
 pip install -r requirements.txt
 playwright install chromium
+```
 
 Run locally
 
+```bash
 functions-framework --target=handler --debug
+```
 
 Note: This project is built for educational & research purposes.
